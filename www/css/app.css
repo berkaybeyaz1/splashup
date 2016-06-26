@@ -1,0 +1,132 @@
+.login {
+  background: url("../img/step/1.png") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover; }
+
+.slider {
+  height: 100%; }
+
+.box {
+  padding-top: 12.8%; }
+
+.step-1 {
+  /*
+  sa as
+  */
+  background: url("../img/step/1.png") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  height: 100%; }
+  .step-1 > span {
+    margin-top: 75%;
+    font-size: 25px;
+    display: inline-block;
+    text-align: center !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 100%;
+    color: white; }
+
+.step-2 {
+  background: url("../img/step/2.png") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  height: 100%; }
+  .step-2 > span {
+    margin-top: 50%;
+    font-size: 25px;
+    line-height: 150%;
+    display: inline-block;
+    text-align: center !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white; }
+
+.step-3 {
+  background: url("../img/step/3.png") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  height: 100%; }
+  .step-3 > span {
+    margin-top: 50%;
+    font-size: 25px;
+    line-height: 150%;
+    display: inline-block;
+    text-align: center !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white; }
+  .step-3 > button {
+    position: relative;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0;
+    background: white;
+    border-radius: 35px;
+    width: 60%;
+    margin-top: 50%; }
+
+.next-icon {
+  clear: both;
+  color: white;
+  font-size: 45px;
+  margin-top: 15px; }
+
+.login {
+  background: url("../img/step/login2.png") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover; }
+
+.login-content {
+  overflow-y: hidden; }
+
+.login-header {
+  background: transparent !important;
+  border: 0; }
+
+.login-back {
+  font-size: 20px; }
+
+.wrapper {
+  margin-top: 35%; }
+  .wrapper > .row > .login-form {
+    width: 100%;
+    height: 100%; }
+    .wrapper > .row > .login-form > input {
+      margin-top: 25px;
+      color: white;
+      background: transparent !important;
+      width: 100%;
+      border-bottom: 2px solid #dddddd;
+      border-radius: 0; }
+      .wrapper > .row > .login-form > input:focus {
+        border-bottom: 2px solid white; }
+    .wrapper > .row > .login-form > .login-button {
+      width: 100%;
+      margin-top: 25px;
+      padding: 10px;
+      background: transparent !important;
+      border: 2px solid #dddddd;
+      color: white;
+      border-radius: 35px;
+      transition: all 0.4ms ease; }
+      .wrapper > .row > .login-form > .login-button:hover {
+        background: white !important;
+        color: black; }
+
+/*
+Ionic Fix
+*/
+.slider-pager .slider-pager-page {
+  color: white; }

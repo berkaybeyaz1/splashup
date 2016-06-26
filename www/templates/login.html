@@ -1,0 +1,17 @@
+<ion-view view-title="Login" name="login-view" class="login" hide-nav-bar="true">
+    <ion-header-bar align-title="center" class="login-header">
+        <i class="padding icon ion-chevron-left login-back" ng-click="headerGoBack()"></i>
+        <h1 class="title">Giriş Yap</h1>
+    </ion-header-bar>
+    <ion-content class="padding has-header login-content">
+        <div class="wrapper">
+            <div class="row row-center">
+                <div class="col-100 login-form">
+                    <input type="email" ng-model="data.email" placeholder="Kullanıcı Adınız">
+                    <input type="password" ng-model="data.password" placeholder="Şifreniz">
+                    <button class="login-button" ng-click="signIn($event)">Giriş Yap</button>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

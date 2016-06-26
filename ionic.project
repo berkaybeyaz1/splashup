@@ -1,0 +1,10 @@
+{
+  "name": "splashup",
+  "app_id": "f9c781c3",
+  "proxies": [
+    {
+        "path": "/api",
+        "proxyUrl": "http://localhost:8000/api"
+    }
+  ]
+}

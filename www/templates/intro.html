@@ -1,0 +1,27 @@
+<ion-view view-title="Login" name="login-view" class="login" hide-nav-bar="true">
+    <ion-slide-box on-slide-changed="slideHasChanged(index)">
+        <ion-slide>
+            <div class="box step-1">
+                <span class="animated fadeInDown">
+                <b>Splashup’a</b> hoşgeldin
+                    </span>
+                <div class="next-icon animated infinite" ng-click="next()" ng-show="slideIndex != 2">
+                <i class="ion-ios-arrow-right"></i>
+                </div>
+            </div>
+        </ion-slide>
+        <ion-slide>
+            <div class="box step-2">
+                <span><b>Splashup</b> fotoğrafların konuştuğu bir platformdur.</span>
+            </div>
+        </ion-slide>
+        <ion-slide>
+            <div class="box step-3">
+                <span><b>Splashup’</b>a hemen giriş yapeşsiz güzellikleri keşfet!</span>
+                <button ng-click="goToLogin()">giriş yap</button>
+            </div>
+        </ion-slide>
+    </ion-slide-box>
+
+</ion-view>
+
